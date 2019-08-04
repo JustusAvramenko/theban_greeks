@@ -6,7 +6,7 @@
 	
 	"Emblem":"session/portraits/emblems/emblem_thebans.png",
 	
-	"History":"The Thebans are a strong land power with access to the unique \"Fire Raiser\" siege weapon. Their hoplites utilize the strong phalanx formation and they receive 1 extra hoplite at the beginning of a standard match. They also receive a free Stoa building, which grants +20% health for all buildings, and the Greek Theater, which increases territory influence for their buildings.",
+	"History":"The Thebans are a strong land power with access to the unique \"Fire Raiser\" siege weapon. Their hoplites utilize the strong phalanx formation.",
 	"Music":[
 			{"File":"The_Hellespont.ogg", "Type":"peace"},
 			{"File":"Harvest_Festival.ogg", "Type":"peace"},
@@ -22,13 +22,13 @@
 			"Technologies":
 			[
 				{
-					"Name":"Oracle of Delphi.",
-					"History":"Historically, the Boeotians controlled the religiously important site of Delphi. The oracle at Delphi was the priestess of Apollo. She was tasked with uttering prophesies and answers to queries to the god. Delphi was the most sacred sanctuary in Greece and the 2nd oldest, Dodona in Epirus, dedicated to Zeus, being the oldest.",
+					"Name":"Oracle of Trophonios.",
+					"History":"Libadeia was originally an insignificant place, but it rose into importance in consequence of its possessing the celebrated oracle of Trophonius. The oracle was consulted both by Croesus and by Mardonius, and it continued to be consulted even in the time of Plutarch, when all the other oracles in Boeotia had become dumb. Pausanias, in his account of Boeotia, relates many details about the cult of Trophonius. Whoever desired to consult the oracle would live in a designated house for a period of days, bathing in the river Herkyna and living on sacrificial meat. He would then sacrifice, by day, to a series of gods, including Cronus, Apollo, Zeus the king, Hera the Charioteer, and Demeter-Europa. At night, he would cast a ram into a pit sacred to Agamedes, drink from two rivers called Lethe and Mnemosyne, and then descend into a cave. Here, most consultees were frightened out of their wits, and forgot the experience entirely upon coming up. Afterward, the consultee would be seated upon a chair of Mnemosyne, where the priests of the shrine would record his ravings and compose an oracle out of them. \"To descend into the cave of Trophonios\" became a proverbial way of saying \"to suffer a great fright\". This saying is alluded to in Aristophanes' Clouds.",
 					"Description":"All units and structures +10% vision range."
 				},
 				{
 					"Name":"Boeotarch",
-					"History":"The Boeotarchs were a council of 10 elected magistrates or generals, similar in power and responsibility to the 'strategoi' of Athens.",
+					"History":"The Boeotarchs were a council of 10 elected magistrates or generals, similar in power and responsibility to the \"strategoi\" of Athens.",
 					"Description":"All Heroes +25% health."
 				}
 			],
