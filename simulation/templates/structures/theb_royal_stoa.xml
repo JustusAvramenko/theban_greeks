@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_hellenic_royal_stoa">
+  <Identity>
+    <Civ>theb</Civ>
+    <SpecificName>Stoá</SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>special/greek_stoa_great.xml</Actor>
+  </VisualActor>
+</Entity>
