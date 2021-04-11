@@ -3,4 +3,9 @@
   <Auras datatype="tokens">
     teambonuses/theb_player_teambonus
   </Auras>
+  <EntityLimits>
+    <Limits>
+	  <Stoa>1</Stoa>
+    </Limits>
+  </EntityLimits>
 </Entity>

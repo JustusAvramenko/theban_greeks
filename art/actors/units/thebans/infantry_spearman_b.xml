@@ -2,37 +2,47 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_hoplite.xml">
+    <variant>
       <mesh>skeletal/new/m_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
-        <prop actor="props/units/helmets/hele_pilos.xml" attachpoint="helmet"/>
-        <prop actor="props/units/shields/hele_round_b.xml" attachpoint="shield_arm"/>
+        <prop actor="props/units/helmets/hele_boeotian.xml" attachpoint="helmet"/>
+        <prop actor="props/units/shields/aspis_theb_02.xml" attachpoint="shield_arm"/>
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath_xiphos.xml" attachpoint="sheath_02_L"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="3" name="tunic">
+    <variant frequency="1" name="Tunic-Sleeveless-a">
       <textures>
-        <texture file="skeletal/hele_tunic.dds" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/hele_tunic_2_a.png" name="baseTex"/>
+	  </textures>
     </variant>
-    <variant frequency="2" name="tunic 2">
+    <variant frequency="1" name="Tunic-Sleeveless-b">
       <textures>
-        <texture file="skeletal/hele_isp_b_2.dds" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/hele_tunic_2_b.png" name="baseTex"/>
+	  </textures>
     </variant>
-    <variant frequency="2" name="tunic 3">
+    <variant frequency="1" name="Tunic-Sleeveless-c">
       <textures>
-        <texture file="skeletal/hele_isp_b_3.dds" name="baseTex"/>
-      </textures>
+	    <texture file="skeletal/hele_tunic_2_c.png" name="baseTex"/>
+	  </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Idle"/>
-    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/base_hoplite.xml"/>
+    <variant file="biped/base_hoplite_ready.xml"/>
+    <variant file="biped/formations/phalanx_front.xml"/>
+    <variant file="biped/formations/phalanx_mid.xml"/>
+    <variant file="biped/formations/phalanx_back.xml"/>
+    <variant file="biped/attack_capture.xml">
+      <props>
+        <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
     <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/death_infantry.xml"/>
     <variant file="biped/gather_tree.xml"/>
     <variant file="biped/gather_grain.xml"/>
     <variant file="biped/gather_fruit.xml"/>
@@ -48,7 +58,17 @@
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
-    <variant file="biped/death_infantry.xml"/>
+    <variant file="biped/approach_tree.xml"/>
+    <variant file="biped/approach_grain.xml"/>
+    <variant file="biped/approach_fruit.xml"/>
+    <variant file="biped/approach_meat.xml"/>
+    <variant file="biped/approach_rock.xml"/>
+    <variant file="biped/approach_ore.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant name="Idle"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

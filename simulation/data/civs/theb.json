@@ -104,22 +104,22 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/theb_civil_centre"
+			"Template": "structures/theb/civil_centre"
 		},
 		{
-			"Template": "units/theb_support_female_citizen",
+			"Template": "units/theb/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/theb_infantry_spearman_b",
+			"Template": "units/theb/infantry_spearman_b",
 			"Count": 3
 		},
 		{
-			"Template": "units/theb_infantry_javelinist_b",
+			"Template": "units/theb/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/theb_cavalry_javelinist_b"
+			"Template": "units/theb/cavalry_javelineer_b"
 		}
 	],
 	"Formations":
@@ -149,7 +149,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_infantry_melee_b": "units/theb_infantry_spearman_b"
+		"skirmish/units/default_infantry_melee_b": "units/theb/infantry_spearman_b"
 	},
 	"SelectableInGameSetup": true
 }
