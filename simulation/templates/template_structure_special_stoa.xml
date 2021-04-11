@@ -40,7 +40,7 @@
     <Tooltip>The Stoa represents civic virtue and civic pride.</Tooltip>
     <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>structures/tholos.png</Icon>
-    <Undeletable>true</Undeletable>
+    <Undeletable>false</Undeletable>
   </Identity>
   <Loot>
     <xp>100</xp>
