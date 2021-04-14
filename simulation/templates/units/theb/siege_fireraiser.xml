@@ -2,6 +2,9 @@
 <Entity parent="template_unit_siege_ram">
   <Attack replace="">
     <Melee>
+      <Damage>
+        <Fire>20</Fire>
+      </Damage>
       <ApplyStatus>
         <Burning>
           <Interval>5000</Interval>
@@ -13,9 +16,6 @@
         </Burning>
       </ApplyStatus>
       <AttackName>Fire</AttackName>
-      <Damage>
-        <Fire>20</Fire>
-      </Damage>
       <MaxRange>10</MaxRange>
       <PrepareTime>250</PrepareTime>
       <RepeatTime>500</RepeatTime>
