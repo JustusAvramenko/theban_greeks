@@ -39,11 +39,13 @@
     <Icon>units/theb/siege_fireraiser.png</Icon>
   </Identity>
   <Resistance>
-    <Damage>
-	  <Hack>5</Hack>
-      <Pierce>20</Pierce>
-      <Crush>5</Crush>
-    </Damage>
+    <Entity>
+      <Damage>
+        <Hack>5</Hack>
+        <Pierce>20</Pierce>
+        <Crush>5</Crush>
+      </Damage>
+    </Entity>
   </Resistance>
   <Selectable>
     <Overlay>
