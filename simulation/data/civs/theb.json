@@ -99,7 +99,7 @@
 	"WallSets":
 	[
 		"other/wallset_palisade",
-		"structures/theb_wallset_stone"
+		"structures/theb/wallset_stone"
 	],
 	"StartEntities":
 	[
