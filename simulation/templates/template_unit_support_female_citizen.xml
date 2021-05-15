@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_support">
+<Entity parent="builder|template_unit_support">
   <Attack>
     <Melee>
       <AttackName>Dagger</AttackName>
       <Damage>
-        <Hack>2.0</Hack>
-        <Pierce>0</Pierce>
-        <Crush>0.0</Crush>
+        <Hack>2</Hack>
       </Damage>
       <MaxRange>3</MaxRange>
       <PrepareTime>500</PrepareTime>
@@ -18,6 +16,8 @@
         <Hack>1000</Hack>
       </Damage>
       <MaxRange>2</MaxRange>
+      <RepeatTime>1000</RepeatTime>
+      <RestrictedClasses datatype="tokens">!Domestic</RestrictedClasses>
     </Slaughter>
   </Attack>
   <Builder>
@@ -62,11 +62,11 @@
     <Max>25</Max>
   </Health>
   <Identity>
-    <Classes datatype="tokens">FemaleCitizen</Classes>
-    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <Phenotype>female</Phenotype>
     <GenericName>Female Citizen</GenericName>
     <SelectionGroupName>template_unit_support_female_citizen</SelectionGroupName>
-    <Phenotype>female</Phenotype>
+    <Classes datatype="tokens">FemaleCitizen</Classes>
+    <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
     <Formations disable=""/>
   </Identity>
   <Loot>
@@ -86,6 +86,12 @@
       <stone.ruins>2</stone.ruins>
       <metal.ore>0.35</metal.ore>
     </Rates>
+    <Capacities>
+      <food>10</food>
+      <wood>10</wood>
+      <stone>10</stone>
+      <metal>10</metal>
+    </Capacities>
   </ResourceGatherer>
   <Sound>
     <SoundGroups>
