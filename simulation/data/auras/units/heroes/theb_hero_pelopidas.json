@@ -3,7 +3,6 @@
 	"affects": ["Spear Infantry"],
 	"modifications": [
 	  {"value": "UnitMotion/WalkSpeed", "multiply": 1.25},
-	  {"value": "UnitMotion/Run/Speed", "multiply": 1.25},
 	  {"value": "Attack/Melee/Hack", "multiply": 1.25}
 	],
 	"auraName": "Oblique Order",
