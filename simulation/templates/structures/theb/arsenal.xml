@@ -4,12 +4,12 @@
     <Civ>theb</Civ>
     <SpecificName>Hoplothēkē</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
 	  units/{civ}/siege_fireraiser
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/hellenes/workshop.xml</Actor>
   </VisualActor>

@@ -4,11 +4,11 @@
     <Civ>theb</Civ>
     <SpecificName>Epaulos</SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       gaia/fauna_pig
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/hellenes/corral.xml</Actor>
   </VisualActor>

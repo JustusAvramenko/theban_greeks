@@ -1,9 +1,9 @@
 {
 	"name": "theban_greeks_working",
 	"label": "Theban Greeks - Working Copy",
-	"version": "0.25.1",
+	"version": "0.26.0",
 	"url": "https://github.com/JustusAvramenko/theban_greeks",
 	"description": "The Theban Greek civilization for 0 A.D. Empires Ascendant.",
-	"dependencies": ["0ad>=0.0.25"],
+	"dependencies": ["0ad>=0.0.26"],
 	"type": "Factions"
 }

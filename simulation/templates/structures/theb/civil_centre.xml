@@ -8,13 +8,13 @@
     <SpecificName>Agora</SpecificName>
     <History>The most important place in any Greek city, the Agora served many purposes; it was a place for public speeches and was the stage for civic life and commercial interests.</History>
   </Identity>
-  <ProductionQueue>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
       units/{civ}/infantry_javelineer_b
       units/{civ}/cavalry_javelineer_b
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/thebans/civic_center.xml</Actor>
   </VisualActor>

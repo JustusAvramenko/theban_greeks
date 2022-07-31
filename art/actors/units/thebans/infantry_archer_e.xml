@@ -26,25 +26,25 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="epilektos-06">
+    <variant name="epilektoi-1">
       <textures>
-	    <texture file="skeletal/athen_epilektoi6.png" name="baseTex"/>
-	  </textures>
+        <texture file="skeletal/athen/epilektos_01.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="epilektos-07">
+    <variant name="epilektoi-3">
       <textures>
-	    <texture file="skeletal/athen_epilektoi7.png" name="baseTex"/>
-	  </textures>
+        <texture file="skeletal/athen/epilektos_03.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="epilektos-08">
+    <variant name="epilektoi-5">
       <textures>
-	    <texture file="skeletal/athen_epilektoi8.png" name="baseTex"/>
-	  </textures>
+        <texture file="skeletal/athen/epilektos_05.png" name="baseTex"/>
+      </textures>
     </variant>
-    <variant frequency="1" name="epilektos-09">
+    <variant name="epilektoi-9">
       <textures>
-	    <texture file="skeletal/athen_epilektoi9.png" name="baseTex"/>
-	  </textures>
+        <texture file="skeletal/athen/epilektos_09.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
   <group>

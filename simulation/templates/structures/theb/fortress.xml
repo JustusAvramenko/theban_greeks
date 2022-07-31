@@ -11,16 +11,18 @@
   <Obstruction>
     <Static width="24.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
+    <Technologies datatype="tokens">
+	  thebans/heroes_boeotarch
+    </Technologies>
+  </Researcher>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/hero_gorgidas
       units/{civ}/hero_pelopidas
 	  units/{civ}/hero_epaminondas
     </Entities>
-    <Technologies datatype="tokens">
-	  thebans/heroes_boeotarch
-    </Technologies>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/athenians/fortress.xml</Actor>
   </VisualActor>

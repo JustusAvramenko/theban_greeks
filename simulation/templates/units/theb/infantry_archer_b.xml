@@ -15,6 +15,6 @@
     <RequiredXp>200</RequiredXp>
   </Promotion>
   <VisualActor>
-    <Actor>units/athenians/infantry_archer_b.xml</Actor>
+    <Actor>units/thebans/infantry_archer_b.xml</Actor>
   </VisualActor>
 </Entity>
