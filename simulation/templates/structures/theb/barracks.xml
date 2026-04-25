@@ -16,8 +16,8 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-	  units/{civ}/champion_infantry_hoplite
-	  units/{civ}/champion_infantry_swordsman
+      units/{civ}/champion_infantry_hoplite
+      units/{civ}/champion_infantry_swordsman
     </Entities>
   </Trainer>
   <VisualActor>
