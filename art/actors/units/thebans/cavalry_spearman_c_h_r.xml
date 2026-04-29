@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant>
+      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <props>
+        <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/xiphos.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/sheath_xiphos_e.xml" attachpoint="sheath_01_L"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="2" name="hele_boeotian_b2_h">
+      <props>
+        <prop actor="props/units/helmets/hele_boeotian_b2.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="hele_boeotian_a_plume_h">
+      <props>
+        <prop actor="props/units/helmets/hele_boeotian_a_plume.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="hele_boeotian_b_plume_h">
+      <props>
+        <prop actor="props/units/helmets/hele_boeotian_b_plume.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="tunic_marine_01_01_h">
+      <textures>
+        <texture file="skeletal/athen/tunic_marine_01_01.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic_marine_01_02_h">
+      <textures>
+        <texture file="skeletal/athen/tunic_marine_01_02.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic_marine_01_03_h">
+      <textures>
+        <texture file="skeletal/athen/tunic_marine_01_03.png" name="baseTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="tunic_marine_01_04_h">
+      <textures>
+        <texture file="skeletal/athen/tunic_marine_01_04.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant file="biped/base_swordsman_shield_fast_wild.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <group>
+    <variant>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
+</actor>
