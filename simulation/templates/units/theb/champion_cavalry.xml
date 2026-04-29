@@ -7,7 +7,7 @@
     <Melee>
       <AttackName>Spears and Swords</AttackName>
       <Damage>
-        <Hack>20</Hack>
+        <Hack>15</Hack>
       </Damage>
       <MaxRange>5</MaxRange>
       <Bonuses>
@@ -16,6 +16,7 @@
           <Multiplier>2.0</Multiplier>
         </BonusCavMelee>
       </Bonuses>
+      <RepeatTime>1000</RepeatTime>
       <Splash>
         <Shape>Circular</Shape>
         <Range>2.5</Range>
@@ -45,10 +46,12 @@
     <Lang>greek</Lang>
     <GenericName>Horse Runner</GenericName>
     <SpecificName>Hamippos</SpecificName>
+    <Tooltip>Counters: 2× vs Cavalry.</Tooltip>
     <Icon>units/mace/champion_cavalry.png</Icon>
     <SelectionGroupName>units/theb/champion_cavalry</SelectionGroupName>
   </Identity>
   <UnitMotion>
+    <WalkSpeed op="mul">0.8</WalkSpeed>
     <PassabilityClass>large</PassabilityClass>
     <Weight op="mul">4.0</Weight>
   </UnitMotion>
